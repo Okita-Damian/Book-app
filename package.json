@@ -1,0 +1,19 @@
+{
+  "name": "node.js-tutorial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Damian",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "joi": "^17.13.3",
+    "mongoose": "^8.9.2",
+    "mongoose-autopopulate": "^1.1.0",
+    "nodemon": "^3.1.9"
+  }
+}

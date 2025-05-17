@@ -1,0 +1,54 @@
+
+
+POST http://localhost:5000/authors
+Content-Type: application/json
+
+{
+  "name": "Chibuike",
+    "biography": "Author of the book family and friends",
+    "birthYear": 2025,
+    "books": []
+}
+
+###
+
+POST http://localhost:5000/genres
+Content-Type: application/json
+
+{
+  "name": "Drama",
+  "description": "A genre of Love and faith"
+}
+
+###
+POST http://localhost:5000/books
+Content-Type: application/json
+
+{
+  "name": "miracle",
+  "title": "Love",
+  "isbn": "544",
+  "authors": ["681f44281d4e51b12c968e76"],
+  "genres": ["681f45351d4e51b12c968e78"],
+  "publishedYear": 2025,
+  "copiesAvailable": 5,
+  "description": "An epic tale of love and Hate",
+  "shelfLocation": "F2-A"
+}
+
+
+###
+
+POST http://localhost:5000/members 
+Content-Type: application/json
+
+{
+  "name": "Damian-sparrow",
+  "membershipId": "MEM102"
+}
+
+
+###
+//All the authors
+
+DELETE  http://localhost:5000/books/ligh
